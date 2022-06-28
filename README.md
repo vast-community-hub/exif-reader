@@ -10,9 +10,9 @@
     <br>
     -->
     <br>
-    <a href="https://github.com/instantiations/exif-reader/issues/new?labels=Type%3A+Defect">Report a defect</a>
+    <a href="https://github.com/vast-community-hub/exif-reader/issues/new?labels=Type%3A+Defect">Report a defect</a>
     |
-    <a href="https://github.com/instantiations/exif-reader/issues/new?labels=Type%3A+Feature">Request feature</a>
+    <a href="https://github.com/vast-community-hub/exif-reader/issues/new?labels=Type%3A+Feature">Request feature</a>
   </p>
 </p>
 
@@ -28,7 +28,7 @@ A VAST Platform project to read and parse EXIF metadata from images.
 ## Installation
 
 1. Install [VA Smalltalk 10.0.0 or newer](https://www.instantiations.com/products/vasmalltalk/download.html).
-2. Install Tonel support in your development image following [this guide](https://github.com/vasmalltalk/tonel-vast#installation).
+2. Install Tonel support in your development image following [this guide](https://github.com/instantiations/tonel-vast#installation).
 3. Clone this repository.
 4. The easiest and recommended approach is to install it via a script:
 
@@ -46,7 +46,7 @@ Or you can load the Configuration Map `SoS` from the context menu of the Configu
 
 ## Supplied files:
 
-- [exif-useage.pdf](assets/docs/exif-usage)  - PDF manual contains instructions for installing and running the code
+- [exif-useage.pdf](assets/docs/exif-usage.pdf)  - PDF manual contains instructions for installing and running the code
 - [tags.csv](assets/data/tags.csv) - must be in the root directory of the program and contains the list of all valid exif tags and their data
 - [testimage.jpg](assets/test/testImage.jpg) - a valid JPEG file used from within the comments of the class methods used.
 
@@ -57,3 +57,7 @@ Or you can load the Configuration Map `SoS` from the context menu of the Configu
 - Go to the Application `SoSExifReaderApp` and select `SoSExifReader` in the Parts list and open it.
 - Go to the Class method list and open `parseAFileCalled: aFileName`
 - Highlight  `SoSExifReader parseAFileCalled: 'testimage.jpg'`  and inspect (Control-Q). You should have a list of the tags and their contents in the Transcript and an inspect on a dictionary containing each page in the image.
+
+## Documentation
+
+The documentation is in the [exif-usage.pdf](assets/docs/exif-usage.pdf).
