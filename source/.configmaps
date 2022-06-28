@@ -1,0 +1,22 @@
+[
+	{
+		#conditions : [
+			{
+				#condition : 'true',
+				#requiredMaps : [ ]
+			}
+		],
+		#ts : 3833716580,
+		#comment : '',
+		#formatVersion : '1.1',
+		#applications : OrderedCollection [
+			{
+				#name : 'SoSExifReaderApp',
+				#versionName : '0.96 ST Versioo',
+				#ts : 3833714291
+			}
+		],
+		#name : 'SoS',
+		#versionName : 'Exif ST 1.0'
+	}
+]
