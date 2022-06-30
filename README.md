@@ -17,7 +17,7 @@
 </p>
 
 
-A VAST Platform project to read and parse EXIF metadata from images.
+A VAST Platform project to read and parse EXIF metadata from images, like JPGs.
 
 
 ## License
